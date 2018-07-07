@@ -168,7 +168,8 @@ header .intro-text .skills {
 
 .navbar-default,
 .navbar-inverse {
-    border: 0;
+  background-color: #ec1f51;
+  border: 0;
 }
 
 section {
@@ -455,3 +456,6 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+.navbar-default
