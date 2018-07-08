@@ -1,0 +1,41 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-text">
+                    <h2>Jobs at TomorrowApps</h2>
+                    <hr class="star-light">
+                    <span class="skills">work. anywhere. happy.</span>
+                </div>
+            </div>
+        </div>  
+    </div>
+</header>
+<section id="jobs">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        {% if site.data.jobs %}
+        <table class="table table-bordered">
+          <thead>
+            <th>Position</th>
+            <th>Date Posted</th>
+            <th>Status</th>
+          </thead>
+        {% for job in site.data.jobs %}
+          <tr>
+            <td>{{job.name}}</td>
+            <td>{{job.posted}}</td>
+            <td>{{job.status}}</td>
+          </tr>
+        {% endfor %}
+        </table>
+        {% else %}
+        <h3>No available jobs atm. Sorry :(</h3>
+        {% endif %}
+      </div>
+      <div class="col-lg-4 text-center">
+      </div>
+    </div>
+  </div>
+</section>
