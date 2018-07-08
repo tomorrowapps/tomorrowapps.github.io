@@ -1,15 +1,16 @@
 # Site settings
-title: Tomorrow Apps
+title: TomorrowApps
 email: tomorrowappsco@domain.com
 url: https://tomorrowapps.github.io
-description: "Tomorrow apps designs and develops web apps, bots, websites and anything on the web. We also do integrations of 3rd party services. Just tell us what you want and we will design and build it for you."
+description: "TomorrowApps designs and develops web apps, bots, websites and anything on the web. We also do integrations of 3rd party services. Just tell us what you want and we will design and build it for you."
 keywords: "your keywords, separated by commas"
 skills: "Web Apps, Websites, Bots, Integrations, Extensions, Automations"
 tag_line: "Tell us what you want and We will design and build it for you"
-meta_author: Tomorrow Apps
+meta_author: TomorrowApps
 
 # Google webmaster tools
-google_verify:
+google_verify: 6bm5_X6EgdzzlrJuvLJ3zSZu6b3SbCexsvzTHclKyIM
+google_analytics: UA-121889878-2
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -18,7 +19,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+contact: email
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -27,23 +28,24 @@ disqus_shortname: myshortname
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 1a1a1a #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary-rgb: "236,31,81" #"128,179,255"
   secondary: ec1f51; #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: TomorrowApps
   location: Location
   social: Around the Web
   credits: Credits
+  links: Links
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
+    url: https://facebook.com/TomorrowApps
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
@@ -53,12 +55,16 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Cebu City
+  - line: Cebu, Philippines
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Theme built with Freelancer Theme'
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# plugins
+plugins:
+  - jekyll-seo-tag
